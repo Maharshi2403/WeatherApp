@@ -12,7 +12,7 @@ function App() {
     });
 
     const d = await response.json();
-    setData(d.days[0].temp);
+    setData(d.currentConditions.temp);
   }
 
   setTimeout(() => {
@@ -24,7 +24,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <div className="Weatherdiv">
-        <button>  {JSON.stringify(data)}</button>
+        <button> {JSON.stringify(data)}</button>
       </div>
     </>
   );

@@ -1,12 +1,13 @@
 import "./Navbar.css";
+
 function NavBar() {
   return (
     <div className="nav">
-      <ul className="li">
-        <li>
+      <ul>
+        <li className="li">
           <p>LOGO</p>
         </li>
-        <li>
+        <li className="li">
           <p>Weather App</p>
         </li>
       </ul>
