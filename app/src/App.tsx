@@ -24,12 +24,12 @@ function App() {
   }, 10000);
 
   return (
-    <>
+    <div className="content">
       <NavBar></NavBar>
       <div className="Weatherdiv">
         <button> {JSON.stringify(data)}</button>
       </div>
-    </>
+    </div>
   );
 }
 
