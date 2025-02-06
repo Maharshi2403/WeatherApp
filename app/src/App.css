@@ -1,0 +1,19 @@
+.main {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.bodyLeft {
+  margin: auto;
+  float: left;
+  width: 60%;
+  background-color: brown;
+  height: 100%;
+}
+
+.bodyRight {
+  float: right;
+  width: 40%;
+  background-color: rgb(137, 210, 28);
+  height: 100%;
+}

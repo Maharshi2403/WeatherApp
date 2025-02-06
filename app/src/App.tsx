@@ -26,8 +26,11 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <div className="Weatherdiv">
-        <button> {JSON.stringify(data)}</button>
+      <div className="main">
+        <div className="bodyLeft">
+          <div className="Weatherdiv">{JSON.stringify(data)}</div>
+        </div>
+        <div className="bodyRight">dbhburt</div>
       </div>
     </>
   );
