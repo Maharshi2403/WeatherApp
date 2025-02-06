@@ -21,7 +21,7 @@ function App() {
   setTimeout(() => {
     handleClick();
     console.log("useEffect!!");
-  }, 10000);
+  }, 1000000);
 
   return (
     <>
