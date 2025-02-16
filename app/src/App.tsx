@@ -21,13 +21,16 @@ function App() {
   setTimeout(() => {
     handleClick();
     console.log("useEffect!!");
-  }, 10000);
+  }, 1000000);
 
   return (
     <div className="content">
       <NavBar></NavBar>
-      <div className="Weatherdiv">
-        <button> {JSON.stringify(data)}</button>
+      <div className="main">
+        <div className="bodyLeft">
+          <div className="Weatherdiv">{JSON.stringify(data)}</div>
+        </div>
+        <div className="bodyRight">dbhburt</div>
       </div>
     </div>
   );
